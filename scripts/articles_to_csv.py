@@ -1,3 +1,11 @@
+"""
+Collects all the articles in a politician folder (ex. data/[politician-name]) and converts 
+them to a CSV where, rows -> articles. The CSV contains the columns "uuid","title","description","snippet","url",
+"source", "language","published_at" as well as three new empty columns for manual coding, more can be added by 
+modifying this .py and typology_coding_helper.py.
+"""
+
+
 import os
 import json
 import csv
